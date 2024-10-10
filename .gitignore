@@ -1,0 +1,153 @@
+# Python specific #
+###################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django specific #
+###################
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+db.sqlite3-shm
+db.sqlite3-wal
+
+# Media & Static files
+media/
+staticfiles/
+
+# Local development environment
+local_settings.py
+.env
+.env.*
+
+# Django migrations
+**/migrations/**
+
+# If you're using Docker #
+##########################
+
+# Ignore Docker files
+*.stackdump
+.dockerignore
+
+# Ignore Docker Compose override files which can be used to store local Docker Compose settings.
+docker-compose.override.yml
+
+# Unit test / coverage reports
+###############################
+
+.coverage
+.tox
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Environments #
+################
+
+# Ignore virtualenvs
+venv/
+ENV/
+env/
+env.bak/
+env.bak.bak/
+
+# If you're using MySQL
+#######################
+*.sql
+
+# Visual Studio Code settings
+.vscode/
+
+# PyCharm project settings
+.idea/
+
+# Other configurations #
+########################
+
+# Editor specific
+*.swp
+*~
+.project
+.idea
+.vscode
+.venv/
+
+# Ignore uploaded files (optional, if needed) #
+###############################################
+media/
+
+# Temporary files #
+###################
+
+# Ignore temp files
+*.bak
+*.tmp
+*.temp
+*.log
+
+# macOS specific #
+###################
+
+# macOS files
+.DS_Store
+*.DS_Store
+
+# Windows specific #
+####################
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Other #
+#########
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+bin/
+include/
