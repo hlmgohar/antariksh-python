@@ -102,7 +102,8 @@ srsly==2.4.8
 sympy==1.13.3
 thinc==8.3.2
 tifffile==2024.9.20
-torch==2.4.1
+torch==2.4.1+cu121
+torchaudio==2.4.1+cu121
 torchvision==0.19.1
 tqdm==4.66.5
 traits==6.3.2
